@@ -70,7 +70,7 @@ void SplashScreen::setupText()
 
 void SplashScreen::setupLogo()
 {
-    QPixmap logoPixmap("logo.png"); // Use your logo's resource path or file path
+    QPixmap logoPixmap(":/rec/logo.png"); // Use your logo's resource path or file path
     logoLabel.setPixmap(logoPixmap.scaled(300, 300, Qt::KeepAspectRatio));
 }
 
